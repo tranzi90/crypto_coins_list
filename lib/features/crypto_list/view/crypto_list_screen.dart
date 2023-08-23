@@ -45,7 +45,7 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
                 ),
               );
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.document_scanner_outlined,
             ),
           )
