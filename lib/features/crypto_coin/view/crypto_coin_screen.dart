@@ -72,12 +72,12 @@ class _CryptoCoinScreenState extends State<CryptoCoinScreen> {
                     child: Column(
                       children: [
                         _DataRow(
-                          title: 'Hight 24 Hour',
+                          title: 'Highest 24 H',
                           value: '${coinDetails.hight24Hour} \$',
                         ),
                         const SizedBox(height: 6),
                         _DataRow(
-                          title: 'Low 24 Hour',
+                          title: 'Lowest 24 H',
                           value: '${coinDetails.low24Hours} \$',
                         ),
                       ],
