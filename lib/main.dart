@@ -12,6 +12,7 @@ import 'package:talker_dio_logger/talker_dio_logger.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 void main() async {
+  print('test');
   WidgetsFlutterBinding.ensureInitialized();
   final talker = TalkerFlutter.init();
   GetIt.I.registerSingleton(talker);
